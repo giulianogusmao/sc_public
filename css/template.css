@@ -1,8 +1,8 @@
 /* =============================================================================================
 	Imports
    ---------------------------------------------------------------------------------------------*/
-/* caraio de url ../../public/ */
-/* caraio de url ../../public/ */
+/* caraio de url ../ */
+/* caraio de url ../ */
 /* =============================================================================================
 	CLASSES GENÉRICAS 
    ---------------------------------------------------------------------------------------------*/
@@ -145,7 +145,7 @@ textarea, .divBox .headerBox, .divBox .corpoBox, .divBox .rodapeBox, .divBox .co
 
 /* line 34, ../sass/_classes_genericas.scss */
 .menu-frame .navbar .nav > li > a:hover i, .menu-frame .navbar .nav > li > a:focus i {
-  background-image: url("../../public/img/glyphicons-halflings-white.png");
+  background-image: url("../img/glyphicons-halflings-white.png");
 }
 
 /* line 37, ../sass/_classes_genericas.scss */
@@ -853,7 +853,7 @@ textarea, .divBox .headerBox, .divBox .corpoBox, .divBox .rodapeBox, .divBox .co
   background: #111111;
 }
 
-/* caraio de url ../../public/ */
+/* caraio de url ../ */
 /* =============================================================================================
 	FONTE
    ---------------------------------------------------------------------------------------------*/
@@ -912,32 +912,32 @@ button, label, select, textarea, input, input[type="text"], input[type="password
 
 @font-face {
   font-family: "lato_regular";
-  src: local("regular"), url("../../public/fonts/lato/regular-webfont.eot");
-  src: local("regular"), url("../../public/fonts/lato/regular-webfont.eot?#iefix") format("embedded-opentype"), local("regular"), url("../../public/fonts/lato/regular-webfont.ttf") format("truetype");
+  src: local("regular"), url("../fonts/lato/regular-webfont.eot");
+  src: local("regular"), url("../fonts/lato/regular-webfont.eot?#iefix") format("embedded-opentype"), local("regular"), url("../fonts/lato/regular-webfont.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "lato_italic";
-  src: local("italic"), url("../../public/fonts/lato/italic-webfont.eot");
-  src: local("italic"), url("../../public/fonts/lato/italic-webfont.eot?#iefix") format("embedded-opentype"), local("italic"), url("../../public/fonts/lato/italic-webfont.ttf") format("truetype");
+  src: local("italic"), url("../fonts/lato/italic-webfont.eot");
+  src: local("italic"), url("../fonts/lato/italic-webfont.eot?#iefix") format("embedded-opentype"), local("italic"), url("../fonts/lato/italic-webfont.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "lato_bold";
-  src: local("bold"), url("../../public/fonts/lato/bold-webfont.eot");
-  src: local("bold"), url("../../public/fonts/lato/bold-webfont.eot?#iefix") format("embedded-opentype"), local("bold"), url("../../public/fonts/lato/bold-webfont.ttf") format("truetype");
+  src: local("bold"), url("../fonts/lato/bold-webfont.eot");
+  src: local("bold"), url("../fonts/lato/bold-webfont.eot?#iefix") format("embedded-opentype"), local("bold"), url("../fonts/lato/bold-webfont.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "lato_bold_italic";
-  src: local("bold_italic"), url("../../public/fonts/lato/bold_italic-webfont.eot");
-  src: local("bold_italic"), url("../../public/fonts/lato/bold_italic-webfont.eot?#iefix") format("embedded-opentype"), local("bold_italic"), url("../../public/fonts/lato/bold_italic-webfont.ttf") format("truetype");
+  src: local("bold_italic"), url("../fonts/lato/bold_italic-webfont.eot");
+  src: local("bold_italic"), url("../fonts/lato/bold_italic-webfont.eot?#iefix") format("embedded-opentype"), local("bold_italic"), url("../fonts/lato/bold_italic-webfont.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -1097,7 +1097,7 @@ a.disabled:hover {
   text-decoration: none;
 }
 
-/* caraio de url ../../public/ */
+/* caraio de url ../ */
 /* =============================================================================================
 	Formulario
    ---------------------------------------------------------------------------------------------*/
@@ -1481,7 +1481,7 @@ textarea ~ .help-block {
   }
 }
 
-/* caraio de url ../../public/ */
+/* caraio de url ../ */
 /* =============================================================================================
 	Elemento - append
    ---------------------------------------------------------------------------------------------*/
@@ -1729,7 +1729,7 @@ textarea ~ .help-block {
     display: inherit !important;
   }
 }
-/* caraio de url ../../public/ */
+/* caraio de url ../ */
 /* =============================================================================================
 	TABELA 
    ---------------------------------------------------------------------------------------------*/
@@ -1879,7 +1879,7 @@ ul.table.table-bordered .tr .th:first-child {
 }
 /* line 114, ../sass/_table.scss */
 .table a.a-badge:hover:not([disabled]) [class^="icon-"], .table a.a-badge:focus:not([disabled]) [class^="icon-"], .table a.a-block:hover:not([disabled]) [class^="icon-"], .table a.a-block:focus:not([disabled]) [class^="icon-"] {
-  background-image: url("../../public/img/glyphicons-halflings-white.png");
+  background-image: url("../img/glyphicons-halflings-white.png");
 }
 /* line 118, ../sass/_table.scss */
 .table a.a-block[disabled] {
@@ -1934,7 +1934,7 @@ ul.table.table-bordered .tr .th:first-child {
 }
 
 /* saf3+, chrome1+ */
-/* caraio de url ../../public/ */
+/* caraio de url ../ */
 /* =============================================================================================
 	Modal - divBox
    ---------------------------------------------------------------------------------------------*/
@@ -2086,7 +2086,7 @@ ul.table.table-bordered .tr .th:first-child {
   padding: 40px 0 25px 0;
 }
 
-/* caraio de url ../../public/ */
+/* caraio de url ../ */
 /* =============================================================================================
 	NAVBAR RESPONSIVO 
    ---------------------------------------------------------------------------------------------*/
@@ -2265,7 +2265,7 @@ ul.table.table-bordered .tr .th:first-child {
   padding-top: 50px;
 }
 
-/* caraio de url ../../public/ */
+/* caraio de url ../ */
 /* =============================================================================================
 	BOTOES
    ---------------------------------------------------------------------------------------------*/
@@ -2592,7 +2592,7 @@ ul.table.table-bordered .tr .th:first-child {
   /* Chrome,Safari4+ */
 }
 
-/* caraio de url ../../public/ */
+/* caraio de url ../ */
 /* =============================================================================================
 	DROPDOWN
    ---------------------------------------------------------------------------------------------*/
@@ -2663,7 +2663,7 @@ ul.table.table-bordered .tr .th:first-child {
   text-decoration: none;
 }
 
-/* caraio de url ../../public/ */
+/* caraio de url ../ */
 /* =============================================================================================
 	NAVBAR RESPONSIVO 
    ---------------------------------------------------------------------------------------------*/
@@ -2703,7 +2703,7 @@ ul.table.table-bordered .tr .th:first-child {
   height: 10px;
   margin-top: -6px;
   display: block;
-  background-image: url("../../public/img/template/set.gif");
+  background-image: url("../img/template/set.gif");
   background-position: center 2px;
   *display: none;
 }
@@ -2729,7 +2729,7 @@ ul.table.table-bordered .tr .th:first-child {
   display: inline-block;
 }
 
-/* caraio de url ../../public/ */
+/* caraio de url ../ */
 /* =============================================================================================
 	Basic Filter
    ---------------------------------------------------------------------------------------------*/
@@ -2807,12 +2807,12 @@ ul.table.table-bordered .tr .th:first-child {
   *margin-right: .3em;
   line-height: 14px;
   vertical-align: text-top;
-  background-image: url("../../public/img/glyphicons-halflings.png");
+  background-image: url("../img/glyphicons-halflings.png");
   background-repeat: no-repeat;
 }
 /* line 74, ../sass/_basicFilter.scss */
 .tButtons li:hover:before {
-  background-image: url("../../public/img/glyphicons-halflings-white.png");
+  background-image: url("../img/glyphicons-halflings-white.png");
 }
 /* line 76, ../sass/_basicFilter.scss */
 .tButtons li:nth-child(2):before {
