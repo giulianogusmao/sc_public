@@ -1,0 +1,97 @@
+// =============================================================================================
+// DECLARAÇÃO DE VARIAVEIS
+// =============================================================================================
+
+// default
+$line-height: (135 / 100);
+
+// Resolucoes dos dispositivos
+$res-monitor-gr: 1200px;
+$res-monitor: 979px;
+$res-tablet: 767px;
+$res-cel: 480px;
+
+// =============================================================================================
+// urls
+$fonte-ativa: 'lato'; 
+$url-diretorio: '../'; 
+/* caraio de url #{$url-diretorio} */ 
+$url-img: '#{$url-diretorio}img/'; 
+$url-fonte: '#{$url-diretorio}fonts/#{$fonte-ativa}/';
+
+// =============================================================================================
+// fontes 
+// **********************************************************************************************
+// Corrigir bug das fontes. Não é possivel criar automaticamente varias fontes ou alterar
+// a fonte do projeto atual de modo que não altere o projeto geral.
+// **********************************************************************************************
+$fonte-padrao: 'regular'; 
+$fonte-italic: 'italic';
+$fonte-bold: 'bold';
+$fonte-bold_italic: 'bold_italic';
+$fonte-outras: '"Helvetica Neue", Helvetica, Arial, sans-serif';
+$array-font-family: ($fonte-padrao, $fonte-italic, $fonte-bold, $fonte-bold_italic);
+$font-size: 12px;
+
+// =============================================================================================
+// medidas janela
+$max-width: 100%;
+$min-width: auto;
+
+
+
+// =============================================================================================
+// cores
+$cor-texto: #555555;
+$cor-texto-darker: #E5E5E5;
+$cor-texto-dark: #595959;
+
+$texto-darker:  lighten(#000, 13.5%); // #222
+$texto-dark:    lighten(#000, 20.0%); // #333
+$texto:         lighten(#000, 33.5%); // #555
+$texto-light:   lighten(#000, 46.7%); // #777
+$texto-lighter: lighten(#000, 93.5%); // #eee
+
+$cor-primaria: #205081;
+$cor-secundaria: #A6BFDB;
+$cor-ternaria: #0088cc;
+
+$cor-borda: #ddd;
+
+// link
+$cor-link: $cor-primaria;
+$cor-link-hover: lighten($cor-link,20%);
+$cor-link-visited: darken($cor-link,20%);
+$cor-inativo: #E5E5E5;
+
+$cor-success: #dff0d8;
+$cor-error:   #f2dede;
+$cor-warning: #fcf8e3;
+$cor-info:    #d9edf7;
+$cor-inverse: #111111;
+
+$btn-solid-primary: #337ab7; // azul
+$btn-solid-success: #5cb85c; // verde
+$btn-solid-info:    #5bc0de; // azul claro
+$btn-solid-warning: #f0ad4e; // amarelo
+$btn-solid-danger:  #d9534f; // vermelho
+$btn-solid-inverse:  #111111; // vermelho
+
+$cor-btn: #ffffff;
+$cor-btn-default: #f5f5f5;
+$cor-btn-primary: $cor-primaria;
+$cor-btn-success: #62c462;
+$cor-btn-error: #bd362f;
+$cor-btn-warning: #fbb450;
+$cor-btn-info: #5bc0de;
+$cor-btn-inverse: #444444;
+
+$cor-selecao: #FFFFFF;
+$back-cor-selecao: $cor-ternaria;
+
+
+
+// =============================================================================================
+// elementos
+$all-inputs: 'input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"]';
+$height-input: 30px;
