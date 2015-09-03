@@ -18,6 +18,51 @@
 
 
 /* =============================================================================================
+	Outras classes genéricas
+   ---------------------------------------------------------------------------------------------*/
+
+// texto
+/* ---------------------------------------------------------------------------------------------*/
+.f-px { font-size: $font-size; }
+.f-em { font-size: em($font-size); }
+.t-cap { text-transform: capitalize; }
+.t-upp { text-transform: uppercase; }
+.t-right { text-align: right !important; }
+.t-left { text-align: left !important; }
+.t-center { text-align: center !important; }
+
+// margin / padding
+/* ---------------------------------------------------------------------------------------------*/
+$i: 0;
+@while $i <= 50 {
+	.mg-#{$i} { margin: #{$i}px; }
+	.mt-#{$i} { margin-top: #{$i}px; }
+	.mr-#{$i} { margin-right: #{$i}px; }
+	.mb-#{$i} { margin-bottom: #{$i}px; }
+	.ml-#{$i} { margin-left: #{$i}px; }
+
+	.pd-#{$i} { padding: #{$i}px; }
+	.pt-#{$i} { padding-top: #{$i}px; }
+	.pr-#{$i} { padding-right: #{$i}px; }
+	.pb-#{$i} { padding-bottom: #{$i}px; }
+	.pl-#{$i} { padding-left: #{$i}px; }
+	$i: $i + 5;
+}
+
+// border
+/* ---------------------------------------------------------------------------------------------*/
+.bt { border-top: border(); }
+.br { border-right: border(); }
+.bb { border-bottom: border(); }
+.bl { border-left: border(); }
+.bt-0 { border-top: none; }
+.br-0 { border-right: none; }
+.bb-0 { border-bottom: none; }
+.bl-0 { border-left: none; }
+
+
+
+/* =============================================================================================
 	ELEMENTOS
    ---------------------------------------------------------------------------------------------*/
 

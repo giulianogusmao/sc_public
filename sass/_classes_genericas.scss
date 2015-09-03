@@ -1,21 +1,11 @@
 @import "funcoes";
-
+ 
 
 
 /* =============================================================================================
 	CLASSES GENÉRICAS 
    ---------------------------------------------------------------------------------------------*/
 
-
-// texto
-/* ---------------------------------------------------------------------------------------------*/
-.f-px { font-size: $font-size; }
-.f-em { font-size: em($font-size); }
-.t-cap { text-transform: capitalize; }
-.t-upp { text-transform: uppercase; }
-.t-right { text-align: right !important; }
-.t-left { text-align: left !important; }
-.t-center { text-align: center !important; }
 
 %border-radius { @include border-radius(); }
 %border-radius-top { @include border-radius-top(); }
@@ -33,51 +23,18 @@
 %no-linear-gradient { @include linear-gradient(transparent); filter: none; }
 %icon-white { background-image: icons(); }
 %translateY{ @include translateY(); }
+%visible-block { @include opacity(100); }
+%visible-hide { @include opacity(0); }
 
 .no-border { border: 0 !important; }
 .overflowY { overflow-y: auto; overflow-x: hidden; }
-
-%visible-block { @include opacity(100); }
-%visible-hide { @include opacity(0); }
 .inline-block { display: inline-block; }
 .block { display: block; }
 .none { display: none; }
 .visible-hide { visibility: hidden; }
 .oculta-hide, .esconde { position: absolute; left: -10000em; top: -10000em; }
 .oculta-show { position: static; }
-
 .v-top { vertical-align: top; }
-
-
-// margin / padding
-/* ---------------------------------------------------------------------------------------------*/
-$i: 0;
-@while $i <= 50 {
-	.mg-#{$i} { margin: #{$i}px; }
-	.mt-#{$i} { margin-top: #{$i}px; }
-	.mr-#{$i} { margin-right: #{$i}px; }
-	.mb-#{$i} { margin-bottom: #{$i}px; }
-	.ml-#{$i} { margin-left: #{$i}px; }
-
-	.pd-#{$i} { padding: #{$i}px; }
-	.pt-#{$i} { padding-top: #{$i}px; }
-	.pr-#{$i} { padding-right: #{$i}px; }
-	.pb-#{$i} { padding-bottom: #{$i}px; }
-	.pl-#{$i} { padding-left: #{$i}px; }
-	$i: $i + 5;
-}
-
-
-// border
-/* ---------------------------------------------------------------------------------------------*/
-.bt { border-top: border(); }
-.br { border-right: border(); }
-.bb { border-bottom: border(); }
-.bl { border-left: border(); }
-.bt-0 { border-top: none; }
-.br-0 { border-right: none; }
-.bb-0 { border-bottom: none; }
-.bl-0 { border-left: none; }
 
 
 // color / back

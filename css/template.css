@@ -3,53 +3,19 @@
    ---------------------------------------------------------------------------------------------*/
 /* caraio de url ../ */
 /* caraio de url ../ */
+/* caraio de url ../ */
+/* caraio de url ../ */
 /* =============================================================================================
 	CLASSES GENÉRICAS 
    ---------------------------------------------------------------------------------------------*/
-/* ---------------------------------------------------------------------------------------------*/
-/* line 12, ../sass/_classes_genericas.scss */
-.f-px {
-  font-size: 12px;
-}
-
-/* line 13, ../sass/_classes_genericas.scss */
-.f-em {
-  font-size: 1em;
-}
-
-/* line 14, ../sass/_classes_genericas.scss */
-.t-cap {
-  text-transform: capitalize;
-}
-
-/* line 15, ../sass/_classes_genericas.scss */
-.t-upp, .navbar.upp a {
-  text-transform: uppercase;
-}
-
-/* line 16, ../sass/_classes_genericas.scss */
-.t-right {
-  text-align: right !important;
-}
-
-/* line 17, ../sass/_classes_genericas.scss */
-.t-left, .title {
-  text-align: left !important;
-}
-
-/* line 18, ../sass/_classes_genericas.scss */
-.t-center {
-  text-align: center !important;
-}
-
-/* line 20, ../sass/_classes_genericas.scss */
+/* line 10, ../sass/_classes_genericas.scss */
 .input-bootstrap, input[type="file"], .divBox, .navbar.radius a, .box, .box-page, .table-header-fixed.border-radius {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
 }
 
-/* line 21, ../sass/_classes_genericas.scss */
+/* line 11, ../sass/_classes_genericas.scss */
 .divBox .headerBox, .accordion .accordion-heading a, .box .title-box, .table-header-fixed.border-radius > .table-header {
   -webkit-border-top-left-radius: 4px;
   -moz-border-radius-topleft: 4px;
@@ -59,7 +25,7 @@
   border-top-right-radius: 4px;
 }
 
-/* line 22, ../sass/_classes_genericas.scss */
+/* line 12, ../sass/_classes_genericas.scss */
 .divBox .rodapeBox, .accordion .accordion-heading a.collapsed:before, .table-header-fixed.border-radius > .table-body {
   -webkit-border-bottom-left-radius: 4px;
   -moz-border-radius-bottomleft: 4px;
@@ -69,28 +35,28 @@
   border-bottom-right-radius: 4px;
 }
 
-/* line 24, ../sass/_classes_genericas.scss */
+/* line 14, ../sass/_classes_genericas.scss */
 .input-append .add-on, .input-append .btn, .input-append .btn-group > .dropdown-toggle {
   -webkit-border-radius: 0 4px 4px 0;
   -moz-border-radius: 0 4px 4px 0;
   border-radius: 0 4px 4px 0;
 }
 
-/* line 25, ../sass/_classes_genericas.scss */
+/* line 15, ../sass/_classes_genericas.scss */
 ul.table.table-radius .thead ~ .tbody .tr:first-child .td:first-child, ul.table.table-bordered .thead ~ .tbody .tr:first-child .td:first-child, .navbar-inner, .navbar .btn-navbar {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0;
 }
 
-/* line 26, ../sass/_classes_genericas.scss */
+/* line 16, ../sass/_classes_genericas.scss */
 textarea, .divBox .headerBox, .divBox .corpoBox, .divBox .rodapeBox, .divBox .corpoBox .divTexto, iframe, body.frame {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 27, ../sass/_classes_genericas.scss */
+/* line 17, ../sass/_classes_genericas.scss */
 .divBoxMsg, .menu-frame .btn-navbar, header .sombra, .cabecalho .sombra {
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
@@ -98,33 +64,33 @@ textarea, .divBox .headerBox, .divBox .corpoBox, .divBox .rodapeBox, .divBox .co
   transition: all 0.2s ease-in-out;
 }
 
-/* line 29, ../sass/_classes_genericas.scss */
+/* line 19, ../sass/_classes_genericas.scss */
 .dropdown-menu .nav-header {
   text-shadow: none;
 }
 
-/* line 30, ../sass/_classes_genericas.scss */
+/* line 20, ../sass/_classes_genericas.scss */
 .box, .box-page {
   -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
-/* line 31, ../sass/_classes_genericas.scss */
+/* line 21, ../sass/_classes_genericas.scss */
 .btn-solid.btn-default:active, .btn-solid.btn-primary:active, .btn-solid.btn-success:active, .btn-solid.btn-info:active, .btn-solid.btn-warning:active, .btn-solid.btn-danger:active, .btn-solid.btn-inverse:active {
   -webkit-box-shadow: inset 0 0 0.5em rgba(0, 0, 0, 0.35), 0 0 0.2em rgba(0, 0, 0, 0.05);
   -moz-box-shadow: inset 0 0 0.5em rgba(0, 0, 0, 0.35), 0 0 0.2em rgba(0, 0, 0, 0.05);
   box-shadow: inset 0 0 0.5em rgba(0, 0, 0, 0.35), 0 0 0.2em rgba(0, 0, 0, 0.05);
 }
 
-/* line 32, ../sass/_classes_genericas.scss */
+/* line 22, ../sass/_classes_genericas.scss */
 .navbar-inner, .navbar .btn-navbar .icon-bar, .btn-solid {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
 }
 
-/* line 33, ../sass/_classes_genericas.scss */
+/* line 23, ../sass/_classes_genericas.scss */
 .navbar-inner {
   background: transparent;
   /* Old browsers */
@@ -143,716 +109,125 @@ textarea, .divBox .headerBox, .divBox .corpoBox, .divBox .rodapeBox, .divBox .co
   filter: none;
 }
 
-/* line 34, ../sass/_classes_genericas.scss */
+/* line 24, ../sass/_classes_genericas.scss */
 .menu-frame .navbar .nav > li > a:hover i, .menu-frame .navbar .nav > li > a:focus i {
   background-image: url("../img/glyphicons-halflings-white.png");
 }
 
-/* line 37, ../sass/_classes_genericas.scss */
-.no-border {
-  border: 0 !important;
-}
-
-/* line 38, ../sass/_classes_genericas.scss */
-.overflowY, .menu-fixed, .table-header-fixed > .table-body {
-  overflow-y: auto;
-  overflow-x: hidden;
-}
-
-/* line 40, ../sass/_classes_genericas.scss */
+/* line 26, ../sass/_classes_genericas.scss */
 .divBoxMsg.fadeIn, .scroll header .sombra, .scroll .cabecalho .sombra {
   filter: alpha(opacity=100);
   -moz-opacity: 1;
   opacity: 1;
 }
 
-/* line 41, ../sass/_classes_genericas.scss */
+/* line 27, ../sass/_classes_genericas.scss */
 .divBoxMsg, .cabecalho .sombra {
   filter: alpha(opacity=0);
   -moz-opacity: 0;
   opacity: 0;
 }
 
-/* line 42, ../sass/_classes_genericas.scss */
+/* line 29, ../sass/_classes_genericas.scss */
+.no-border {
+  border: 0 !important;
+}
+
+/* line 30, ../sass/_classes_genericas.scss */
+.overflowY, .menu-fixed, .table-header-fixed > .table-body {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+/* line 31, ../sass/_classes_genericas.scss */
 .inline-block {
   display: inline-block;
 }
 
-/* line 43, ../sass/_classes_genericas.scss */
+/* line 32, ../sass/_classes_genericas.scss */
 .block {
   display: block;
 }
 
-/* line 44, ../sass/_classes_genericas.scss */
+/* line 33, ../sass/_classes_genericas.scss */
 .none {
   display: none;
 }
 
-/* line 45, ../sass/_classes_genericas.scss */
+/* line 34, ../sass/_classes_genericas.scss */
 .visible-hide {
   visibility: hidden;
 }
 
-/* line 46, ../sass/_classes_genericas.scss */
+/* line 35, ../sass/_classes_genericas.scss */
 .oculta-hide, .esconde {
   position: absolute;
   left: -10000em;
   top: -10000em;
 }
 
-/* line 47, ../sass/_classes_genericas.scss */
+/* line 36, ../sass/_classes_genericas.scss */
 .oculta-show {
   position: static;
 }
 
-/* line 49, ../sass/_classes_genericas.scss */
+/* line 37, ../sass/_classes_genericas.scss */
 .v-top {
   vertical-align: top;
 }
 
 /* ---------------------------------------------------------------------------------------------*/
-/* line 56, ../sass/_classes_genericas.scss */
-.mg-0 {
-  margin: 0px;
-}
-
-/* line 57, ../sass/_classes_genericas.scss */
-.mt-0 {
-  margin-top: 0px;
-}
-
-/* line 58, ../sass/_classes_genericas.scss */
-.mr-0 {
-  margin-right: 0px;
-}
-
-/* line 59, ../sass/_classes_genericas.scss */
-.mb-0 {
-  margin-bottom: 0px;
-}
-
-/* line 60, ../sass/_classes_genericas.scss */
-.ml-0 {
-  margin-left: 0px;
-}
-
-/* line 62, ../sass/_classes_genericas.scss */
-.pd-0 {
-  padding: 0px;
-}
-
-/* line 63, ../sass/_classes_genericas.scss */
-.pt-0 {
-  padding-top: 0px;
-}
-
-/* line 64, ../sass/_classes_genericas.scss */
-.pr-0 {
-  padding-right: 0px;
-}
-
-/* line 65, ../sass/_classes_genericas.scss */
-.pb-0 {
-  padding-bottom: 0px;
-}
-
-/* line 66, ../sass/_classes_genericas.scss */
-.pl-0 {
-  padding-left: 0px;
-}
-
-/* line 56, ../sass/_classes_genericas.scss */
-.mg-5 {
-  margin: 5px;
-}
-
-/* line 57, ../sass/_classes_genericas.scss */
-.mt-5 {
-  margin-top: 5px;
-}
-
-/* line 58, ../sass/_classes_genericas.scss */
-.mr-5 {
-  margin-right: 5px;
-}
-
-/* line 59, ../sass/_classes_genericas.scss */
-.mb-5 {
-  margin-bottom: 5px;
-}
-
-/* line 60, ../sass/_classes_genericas.scss */
-.ml-5 {
-  margin-left: 5px;
-}
-
-/* line 62, ../sass/_classes_genericas.scss */
-.pd-5 {
-  padding: 5px;
-}
-
-/* line 63, ../sass/_classes_genericas.scss */
-.pt-5 {
-  padding-top: 5px;
-}
-
-/* line 64, ../sass/_classes_genericas.scss */
-.pr-5 {
-  padding-right: 5px;
-}
-
-/* line 65, ../sass/_classes_genericas.scss */
-.pb-5 {
-  padding-bottom: 5px;
-}
-
-/* line 66, ../sass/_classes_genericas.scss */
-.pl-5 {
-  padding-left: 5px;
-}
-
-/* line 56, ../sass/_classes_genericas.scss */
-.mg-10 {
-  margin: 10px;
-}
-
-/* line 57, ../sass/_classes_genericas.scss */
-.mt-10 {
-  margin-top: 10px;
-}
-
-/* line 58, ../sass/_classes_genericas.scss */
-.mr-10 {
-  margin-right: 10px;
-}
-
-/* line 59, ../sass/_classes_genericas.scss */
-.mb-10 {
-  margin-bottom: 10px;
-}
-
-/* line 60, ../sass/_classes_genericas.scss */
-.ml-10 {
-  margin-left: 10px;
-}
-
-/* line 62, ../sass/_classes_genericas.scss */
-.pd-10 {
-  padding: 10px;
-}
-
-/* line 63, ../sass/_classes_genericas.scss */
-.pt-10 {
-  padding-top: 10px;
-}
-
-/* line 64, ../sass/_classes_genericas.scss */
-.pr-10 {
-  padding-right: 10px;
-}
-
-/* line 65, ../sass/_classes_genericas.scss */
-.pb-10 {
-  padding-bottom: 10px;
-}
-
-/* line 66, ../sass/_classes_genericas.scss */
-.pl-10 {
-  padding-left: 10px;
-}
-
-/* line 56, ../sass/_classes_genericas.scss */
-.mg-15 {
-  margin: 15px;
-}
-
-/* line 57, ../sass/_classes_genericas.scss */
-.mt-15 {
-  margin-top: 15px;
-}
-
-/* line 58, ../sass/_classes_genericas.scss */
-.mr-15 {
-  margin-right: 15px;
-}
-
-/* line 59, ../sass/_classes_genericas.scss */
-.mb-15 {
-  margin-bottom: 15px;
-}
-
-/* line 60, ../sass/_classes_genericas.scss */
-.ml-15 {
-  margin-left: 15px;
-}
-
-/* line 62, ../sass/_classes_genericas.scss */
-.pd-15 {
-  padding: 15px;
-}
-
-/* line 63, ../sass/_classes_genericas.scss */
-.pt-15 {
-  padding-top: 15px;
-}
-
-/* line 64, ../sass/_classes_genericas.scss */
-.pr-15 {
-  padding-right: 15px;
-}
-
-/* line 65, ../sass/_classes_genericas.scss */
-.pb-15 {
-  padding-bottom: 15px;
-}
-
-/* line 66, ../sass/_classes_genericas.scss */
-.pl-15 {
-  padding-left: 15px;
-}
-
-/* line 56, ../sass/_classes_genericas.scss */
-.mg-20 {
-  margin: 20px;
-}
-
-/* line 57, ../sass/_classes_genericas.scss */
-.mt-20 {
-  margin-top: 20px;
-}
-
-/* line 58, ../sass/_classes_genericas.scss */
-.mr-20 {
-  margin-right: 20px;
-}
-
-/* line 59, ../sass/_classes_genericas.scss */
-.mb-20 {
-  margin-bottom: 20px;
-}
-
-/* line 60, ../sass/_classes_genericas.scss */
-.ml-20 {
-  margin-left: 20px;
-}
-
-/* line 62, ../sass/_classes_genericas.scss */
-.pd-20 {
-  padding: 20px;
-}
-
-/* line 63, ../sass/_classes_genericas.scss */
-.pt-20 {
-  padding-top: 20px;
-}
-
-/* line 64, ../sass/_classes_genericas.scss */
-.pr-20 {
-  padding-right: 20px;
-}
-
-/* line 65, ../sass/_classes_genericas.scss */
-.pb-20 {
-  padding-bottom: 20px;
-}
-
-/* line 66, ../sass/_classes_genericas.scss */
-.pl-20 {
-  padding-left: 20px;
-}
-
-/* line 56, ../sass/_classes_genericas.scss */
-.mg-25 {
-  margin: 25px;
-}
-
-/* line 57, ../sass/_classes_genericas.scss */
-.mt-25 {
-  margin-top: 25px;
-}
-
-/* line 58, ../sass/_classes_genericas.scss */
-.mr-25 {
-  margin-right: 25px;
-}
-
-/* line 59, ../sass/_classes_genericas.scss */
-.mb-25 {
-  margin-bottom: 25px;
-}
-
-/* line 60, ../sass/_classes_genericas.scss */
-.ml-25 {
-  margin-left: 25px;
-}
-
-/* line 62, ../sass/_classes_genericas.scss */
-.pd-25 {
-  padding: 25px;
-}
-
-/* line 63, ../sass/_classes_genericas.scss */
-.pt-25 {
-  padding-top: 25px;
-}
-
-/* line 64, ../sass/_classes_genericas.scss */
-.pr-25 {
-  padding-right: 25px;
-}
-
-/* line 65, ../sass/_classes_genericas.scss */
-.pb-25 {
-  padding-bottom: 25px;
-}
-
-/* line 66, ../sass/_classes_genericas.scss */
-.pl-25 {
-  padding-left: 25px;
-}
-
-/* line 56, ../sass/_classes_genericas.scss */
-.mg-30 {
-  margin: 30px;
-}
-
-/* line 57, ../sass/_classes_genericas.scss */
-.mt-30 {
-  margin-top: 30px;
-}
-
-/* line 58, ../sass/_classes_genericas.scss */
-.mr-30 {
-  margin-right: 30px;
-}
-
-/* line 59, ../sass/_classes_genericas.scss */
-.mb-30 {
-  margin-bottom: 30px;
-}
-
-/* line 60, ../sass/_classes_genericas.scss */
-.ml-30 {
-  margin-left: 30px;
-}
-
-/* line 62, ../sass/_classes_genericas.scss */
-.pd-30 {
-  padding: 30px;
-}
-
-/* line 63, ../sass/_classes_genericas.scss */
-.pt-30 {
-  padding-top: 30px;
-}
-
-/* line 64, ../sass/_classes_genericas.scss */
-.pr-30 {
-  padding-right: 30px;
-}
-
-/* line 65, ../sass/_classes_genericas.scss */
-.pb-30 {
-  padding-bottom: 30px;
-}
-
-/* line 66, ../sass/_classes_genericas.scss */
-.pl-30 {
-  padding-left: 30px;
-}
-
-/* line 56, ../sass/_classes_genericas.scss */
-.mg-35 {
-  margin: 35px;
-}
-
-/* line 57, ../sass/_classes_genericas.scss */
-.mt-35 {
-  margin-top: 35px;
-}
-
-/* line 58, ../sass/_classes_genericas.scss */
-.mr-35 {
-  margin-right: 35px;
-}
-
-/* line 59, ../sass/_classes_genericas.scss */
-.mb-35 {
-  margin-bottom: 35px;
-}
-
-/* line 60, ../sass/_classes_genericas.scss */
-.ml-35 {
-  margin-left: 35px;
-}
-
-/* line 62, ../sass/_classes_genericas.scss */
-.pd-35 {
-  padding: 35px;
-}
-
-/* line 63, ../sass/_classes_genericas.scss */
-.pt-35 {
-  padding-top: 35px;
-}
-
-/* line 64, ../sass/_classes_genericas.scss */
-.pr-35 {
-  padding-right: 35px;
-}
-
-/* line 65, ../sass/_classes_genericas.scss */
-.pb-35 {
-  padding-bottom: 35px;
-}
-
-/* line 66, ../sass/_classes_genericas.scss */
-.pl-35 {
-  padding-left: 35px;
-}
-
-/* line 56, ../sass/_classes_genericas.scss */
-.mg-40 {
-  margin: 40px;
-}
-
-/* line 57, ../sass/_classes_genericas.scss */
-.mt-40 {
-  margin-top: 40px;
-}
-
-/* line 58, ../sass/_classes_genericas.scss */
-.mr-40 {
-  margin-right: 40px;
-}
-
-/* line 59, ../sass/_classes_genericas.scss */
-.mb-40 {
-  margin-bottom: 40px;
-}
-
-/* line 60, ../sass/_classes_genericas.scss */
-.ml-40 {
-  margin-left: 40px;
-}
-
-/* line 62, ../sass/_classes_genericas.scss */
-.pd-40 {
-  padding: 40px;
-}
-
-/* line 63, ../sass/_classes_genericas.scss */
-.pt-40 {
-  padding-top: 40px;
-}
-
-/* line 64, ../sass/_classes_genericas.scss */
-.pr-40 {
-  padding-right: 40px;
-}
-
-/* line 65, ../sass/_classes_genericas.scss */
-.pb-40 {
-  padding-bottom: 40px;
-}
-
-/* line 66, ../sass/_classes_genericas.scss */
-.pl-40 {
-  padding-left: 40px;
-}
-
-/* line 56, ../sass/_classes_genericas.scss */
-.mg-45 {
-  margin: 45px;
-}
-
-/* line 57, ../sass/_classes_genericas.scss */
-.mt-45 {
-  margin-top: 45px;
-}
-
-/* line 58, ../sass/_classes_genericas.scss */
-.mr-45 {
-  margin-right: 45px;
-}
-
-/* line 59, ../sass/_classes_genericas.scss */
-.mb-45 {
-  margin-bottom: 45px;
-}
-
-/* line 60, ../sass/_classes_genericas.scss */
-.ml-45 {
-  margin-left: 45px;
-}
-
-/* line 62, ../sass/_classes_genericas.scss */
-.pd-45 {
-  padding: 45px;
-}
-
-/* line 63, ../sass/_classes_genericas.scss */
-.pt-45 {
-  padding-top: 45px;
-}
-
-/* line 64, ../sass/_classes_genericas.scss */
-.pr-45 {
-  padding-right: 45px;
-}
-
-/* line 65, ../sass/_classes_genericas.scss */
-.pb-45 {
-  padding-bottom: 45px;
-}
-
-/* line 66, ../sass/_classes_genericas.scss */
-.pl-45 {
-  padding-left: 45px;
-}
-
-/* line 56, ../sass/_classes_genericas.scss */
-.mg-50 {
-  margin: 50px;
-}
-
-/* line 57, ../sass/_classes_genericas.scss */
-.mt-50 {
-  margin-top: 50px;
-}
-
-/* line 58, ../sass/_classes_genericas.scss */
-.mr-50 {
-  margin-right: 50px;
-}
-
-/* line 59, ../sass/_classes_genericas.scss */
-.mb-50 {
-  margin-bottom: 50px;
-}
-
-/* line 60, ../sass/_classes_genericas.scss */
-.ml-50 {
-  margin-left: 50px;
-}
-
-/* line 62, ../sass/_classes_genericas.scss */
-.pd-50 {
-  padding: 50px;
-}
-
-/* line 63, ../sass/_classes_genericas.scss */
-.pt-50 {
-  padding-top: 50px;
-}
-
-/* line 64, ../sass/_classes_genericas.scss */
-.pr-50 {
-  padding-right: 50px;
-}
-
-/* line 65, ../sass/_classes_genericas.scss */
-.pb-50 {
-  padding-bottom: 50px;
-}
-
-/* line 66, ../sass/_classes_genericas.scss */
-.pl-50 {
-  padding-left: 50px;
-}
-
-/* ---------------------------------------------------------------------------------------------*/
-/* line 73, ../sass/_classes_genericas.scss */
-.bt {
-  border-top: 1px solid #dddddd;
-}
-
-/* line 74, ../sass/_classes_genericas.scss */
-.br {
-  border-right: 1px solid #dddddd;
-}
-
-/* line 75, ../sass/_classes_genericas.scss */
-.bb {
-  border-bottom: 1px solid #dddddd;
-}
-
-/* line 76, ../sass/_classes_genericas.scss */
-.bl {
-  border-left: 1px solid #dddddd;
-}
-
-/* line 77, ../sass/_classes_genericas.scss */
-.bt-0 {
-  border-top: none;
-}
-
-/* line 78, ../sass/_classes_genericas.scss */
-.br-0 {
-  border-right: none;
-}
-
-/* line 79, ../sass/_classes_genericas.scss */
-.bb-0 {
-  border-bottom: none;
-}
-
-/* line 80, ../sass/_classes_genericas.scss */
-.bl-0 {
-  border-left: none;
-}
-
-/* ---------------------------------------------------------------------------------------------*/
-/* line 88, ../sass/_classes_genericas.scss */
+/* line 45, ../sass/_classes_genericas.scss */
 .color-success {
   color: #dff0d8;
 }
 
-/* line 89, ../sass/_classes_genericas.scss */
+/* line 46, ../sass/_classes_genericas.scss */
 .back-success {
   background: #dff0d8;
 }
 
-/* line 88, ../sass/_classes_genericas.scss */
+/* line 45, ../sass/_classes_genericas.scss */
 .color-error {
   color: #f2dede;
 }
 
-/* line 89, ../sass/_classes_genericas.scss */
+/* line 46, ../sass/_classes_genericas.scss */
 .back-error {
   background: #f2dede;
 }
 
-/* line 88, ../sass/_classes_genericas.scss */
+/* line 45, ../sass/_classes_genericas.scss */
 .color-warning {
   color: #fcf8e3;
 }
 
-/* line 89, ../sass/_classes_genericas.scss */
+/* line 46, ../sass/_classes_genericas.scss */
 .back-warning {
   background: #fcf8e3;
 }
 
-/* line 88, ../sass/_classes_genericas.scss */
+/* line 45, ../sass/_classes_genericas.scss */
 .color-info {
   color: #d9edf7;
 }
 
-/* line 89, ../sass/_classes_genericas.scss */
+/* line 46, ../sass/_classes_genericas.scss */
 .back-info {
   background: #d9edf7;
 }
 
-/* line 88, ../sass/_classes_genericas.scss */
+/* line 45, ../sass/_classes_genericas.scss */
 .color-inverse {
   color: #111111;
 }
 
-/* line 89, ../sass/_classes_genericas.scss */
+/* line 46, ../sass/_classes_genericas.scss */
 .back-inverse {
   background: #111111;
 }
 
+/* caraio de url ../ */
 /* caraio de url ../ */
 /* =============================================================================================
 	FONTE
@@ -1097,6 +472,7 @@ a.disabled:hover {
   text-decoration: none;
 }
 
+/* caraio de url ../ */
 /* caraio de url ../ */
 /* =============================================================================================
 	Formulario
@@ -1482,6 +858,7 @@ textarea ~ .help-block {
 }
 
 /* caraio de url ../ */
+/* caraio de url ../ */
 /* =============================================================================================
 	Elemento - append
    ---------------------------------------------------------------------------------------------*/
@@ -1730,6 +1107,7 @@ textarea ~ .help-block {
   }
 }
 /* caraio de url ../ */
+/* caraio de url ../ */
 /* =============================================================================================
 	TABELA 
    ---------------------------------------------------------------------------------------------*/
@@ -1935,6 +1313,7 @@ ul.table.table-bordered .tr .th:first-child {
 
 /* saf3+, chrome1+ */
 /* caraio de url ../ */
+/* caraio de url ../ */
 /* =============================================================================================
 	Modal - divBox
    ---------------------------------------------------------------------------------------------*/
@@ -2086,6 +1465,7 @@ ul.table.table-bordered .tr .th:first-child {
   padding: 40px 0 25px 0;
 }
 
+/* caraio de url ../ */
 /* caraio de url ../ */
 /* =============================================================================================
 	NAVBAR RESPONSIVO 
@@ -2265,6 +1645,7 @@ ul.table.table-bordered .tr .th:first-child {
   padding-top: 50px;
 }
 
+/* caraio de url ../ */
 /* caraio de url ../ */
 /* =============================================================================================
 	BOTOES
@@ -2593,6 +1974,7 @@ ul.table.table-bordered .tr .th:first-child {
 }
 
 /* caraio de url ../ */
+/* caraio de url ../ */
 /* =============================================================================================
 	DROPDOWN
    ---------------------------------------------------------------------------------------------*/
@@ -2664,6 +2046,7 @@ ul.table.table-bordered .tr .th:first-child {
 }
 
 /* caraio de url ../ */
+/* caraio de url ../ */
 /* =============================================================================================
 	NAVBAR RESPONSIVO 
    ---------------------------------------------------------------------------------------------*/
@@ -2730,6 +2113,7 @@ ul.table.table-bordered .tr .th:first-child {
 }
 
 /* caraio de url ../ */
+/* caraio de url ../ */
 /* =============================================================================================
 	Basic Filter
    ---------------------------------------------------------------------------------------------*/
@@ -2738,24 +2122,32 @@ ul.table.table-bordered .tr .th:first-child {
   margin: 0;
   padding: 0;
 }
-
 /* line 28, ../sass/_basicFilter.scss */
+#bodyBasicFilter tr.trHeader + tr:hover td {
+  background: transparent;
+}
+/* line 29, ../sass/_basicFilter.scss */
+#bodyBasicFilter tr.trHeader + tr input {
+  margin-bottom: 0;
+}
+
+/* line 33, ../sass/_basicFilter.scss */
 #tabMain {
   width: 100%;
 }
 
-/* line 31, ../sass/_basicFilter.scss */
+/* line 36, ../sass/_basicFilter.scss */
 #BasicFilter > .divToolbar:last-child .tButtons ul {
   border-top: 1px solid #dddddd;
   border-bottom: 1px solid #dddddd;
 }
-/* line 32, ../sass/_basicFilter.scss */
+/* line 37, ../sass/_basicFilter.scss */
 #BasicFilter > div {
   margin: 0 !important;
   padding: 0 !important;
 }
 
-/* line 36, ../sass/_basicFilter.scss */
+/* line 41, ../sass/_basicFilter.scss */
 .tButtons {
   width: 100%;
   z-index: 5;
@@ -2763,12 +2155,12 @@ ul.table.table-bordered .tr .th:first-child {
   background: #f5f5f5 !important;
   display: block;
 }
-/* line 43, ../sass/_basicFilter.scss */
+/* line 48, ../sass/_basicFilter.scss */
 .tButtons ul {
   overflow: auto;
   margin: 0;
 }
-/* line 45, ../sass/_basicFilter.scss */
+/* line 50, ../sass/_basicFilter.scss */
 .tButtons li {
   float: left;
   padding: 5px;
@@ -2778,26 +2170,26 @@ ul.table.table-bordered .tr .th:first-child {
   /* esconde divisoes */
   /* icon-li */
 }
-/* line 52, ../sass/_basicFilter.scss */
+/* line 57, ../sass/_basicFilter.scss */
 .tButtons li:nth-child(odd) {
   display: none;
 }
-/* line 53, ../sass/_basicFilter.scss */
+/* line 58, ../sass/_basicFilter.scss */
 .tButtons li:last-child {
   line-height: 20px;
   font-weight: bold;
 }
-/* line 54, ../sass/_basicFilter.scss */
+/* line 59, ../sass/_basicFilter.scss */
 .tButtons li:last-child:before {
   content: none;
 }
-/* line 55, ../sass/_basicFilter.scss */
+/* line 60, ../sass/_basicFilter.scss */
 .tButtons li:hover:not(:last-child) {
   cursor: pointer;
   color: #FFF !important;
   background: #205081 !important;
 }
-/* line 62, ../sass/_basicFilter.scss */
+/* line 67, ../sass/_basicFilter.scss */
 .tButtons li:before {
   content: ' ';
   display: inline-block;
@@ -2810,65 +2202,696 @@ ul.table.table-bordered .tr .th:first-child {
   background-image: url("../img/glyphicons-halflings.png");
   background-repeat: no-repeat;
 }
-/* line 74, ../sass/_basicFilter.scss */
+/* line 79, ../sass/_basicFilter.scss */
 .tButtons li:hover:before {
   background-image: url("../img/glyphicons-halflings-white.png");
 }
-/* line 76, ../sass/_basicFilter.scss */
+/* line 81, ../sass/_basicFilter.scss */
 .tButtons li:nth-child(2):before {
   background-position: -24px -24px;
 }
-/* line 77, ../sass/_basicFilter.scss */
+/* line 82, ../sass/_basicFilter.scss */
 .tButtons li:nth-child(4):before {
   background-position: -96px -24px;
 }
-/* line 78, ../sass/_basicFilter.scss */
+/* line 83, ../sass/_basicFilter.scss */
 .tButtons li:nth-child(6):before {
   background-position: -408px -144px;
 }
-/* line 79, ../sass/_basicFilter.scss */
+/* line 84, ../sass/_basicFilter.scss */
 .tButtons li:nth-child(8):before {
   background-position: -96px -48px;
 }
-/* line 80, ../sass/_basicFilter.scss */
+/* line 85, ../sass/_basicFilter.scss */
 .tButtons li:nth-child(10):before {
   background-position: -240px -72px;
 }
-/* line 81, ../sass/_basicFilter.scss */
+/* line 86, ../sass/_basicFilter.scss */
 .tButtons li:nth-child(12):before {
   background-position: -432px -72px;
 }
-/* line 82, ../sass/_basicFilter.scss */
+/* line 87, ../sass/_basicFilter.scss */
 .tButtons li:nth-child(14):before {
   background-position: -456px -72px;
 }
-/* line 83, ../sass/_basicFilter.scss */
+/* line 88, ../sass/_basicFilter.scss */
 .tButtons li:nth-child(16):before {
   background-position: -336px -72px;
 }
-/* line 84, ../sass/_basicFilter.scss */
+/* line 89, ../sass/_basicFilter.scss */
 .tButtons li:nth-child(18):before {
   background-position: -240px -96px;
 }
-/* line 86, ../sass/_basicFilter.scss */
+/* line 91, ../sass/_basicFilter.scss */
 .tButtons li img {
   display: none;
 }
 
 /* =============================================================================================
+	Outras classes genéricas
+   ---------------------------------------------------------------------------------------------*/
+/* ---------------------------------------------------------------------------------------------*/
+/* line 26, ../sass/template.scss */
+.f-px {
+  font-size: 12px;
+}
+
+/* line 27, ../sass/template.scss */
+.f-em {
+  font-size: 1em;
+}
+
+/* line 28, ../sass/template.scss */
+.t-cap {
+  text-transform: capitalize;
+}
+
+/* line 29, ../sass/template.scss */
+.t-upp, .navbar.upp a {
+  text-transform: uppercase;
+}
+
+/* line 30, ../sass/template.scss */
+.t-right {
+  text-align: right !important;
+}
+
+/* line 31, ../sass/template.scss */
+.t-left, .title {
+  text-align: left !important;
+}
+
+/* line 32, ../sass/template.scss */
+.t-center {
+  text-align: center !important;
+}
+
+/* ---------------------------------------------------------------------------------------------*/
+/* line 38, ../sass/template.scss */
+.mg-0 {
+  margin: 0px;
+}
+
+/* line 39, ../sass/template.scss */
+.mt-0 {
+  margin-top: 0px;
+}
+
+/* line 40, ../sass/template.scss */
+.mr-0 {
+  margin-right: 0px;
+}
+
+/* line 41, ../sass/template.scss */
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+/* line 42, ../sass/template.scss */
+.ml-0 {
+  margin-left: 0px;
+}
+
+/* line 44, ../sass/template.scss */
+.pd-0 {
+  padding: 0px;
+}
+
+/* line 45, ../sass/template.scss */
+.pt-0 {
+  padding-top: 0px;
+}
+
+/* line 46, ../sass/template.scss */
+.pr-0 {
+  padding-right: 0px;
+}
+
+/* line 47, ../sass/template.scss */
+.pb-0 {
+  padding-bottom: 0px;
+}
+
+/* line 48, ../sass/template.scss */
+.pl-0 {
+  padding-left: 0px;
+}
+
+/* line 38, ../sass/template.scss */
+.mg-5 {
+  margin: 5px;
+}
+
+/* line 39, ../sass/template.scss */
+.mt-5 {
+  margin-top: 5px;
+}
+
+/* line 40, ../sass/template.scss */
+.mr-5 {
+  margin-right: 5px;
+}
+
+/* line 41, ../sass/template.scss */
+.mb-5 {
+  margin-bottom: 5px;
+}
+
+/* line 42, ../sass/template.scss */
+.ml-5 {
+  margin-left: 5px;
+}
+
+/* line 44, ../sass/template.scss */
+.pd-5 {
+  padding: 5px;
+}
+
+/* line 45, ../sass/template.scss */
+.pt-5 {
+  padding-top: 5px;
+}
+
+/* line 46, ../sass/template.scss */
+.pr-5 {
+  padding-right: 5px;
+}
+
+/* line 47, ../sass/template.scss */
+.pb-5 {
+  padding-bottom: 5px;
+}
+
+/* line 48, ../sass/template.scss */
+.pl-5 {
+  padding-left: 5px;
+}
+
+/* line 38, ../sass/template.scss */
+.mg-10 {
+  margin: 10px;
+}
+
+/* line 39, ../sass/template.scss */
+.mt-10 {
+  margin-top: 10px;
+}
+
+/* line 40, ../sass/template.scss */
+.mr-10 {
+  margin-right: 10px;
+}
+
+/* line 41, ../sass/template.scss */
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+/* line 42, ../sass/template.scss */
+.ml-10 {
+  margin-left: 10px;
+}
+
+/* line 44, ../sass/template.scss */
+.pd-10 {
+  padding: 10px;
+}
+
+/* line 45, ../sass/template.scss */
+.pt-10 {
+  padding-top: 10px;
+}
+
+/* line 46, ../sass/template.scss */
+.pr-10 {
+  padding-right: 10px;
+}
+
+/* line 47, ../sass/template.scss */
+.pb-10 {
+  padding-bottom: 10px;
+}
+
+/* line 48, ../sass/template.scss */
+.pl-10 {
+  padding-left: 10px;
+}
+
+/* line 38, ../sass/template.scss */
+.mg-15 {
+  margin: 15px;
+}
+
+/* line 39, ../sass/template.scss */
+.mt-15 {
+  margin-top: 15px;
+}
+
+/* line 40, ../sass/template.scss */
+.mr-15 {
+  margin-right: 15px;
+}
+
+/* line 41, ../sass/template.scss */
+.mb-15 {
+  margin-bottom: 15px;
+}
+
+/* line 42, ../sass/template.scss */
+.ml-15 {
+  margin-left: 15px;
+}
+
+/* line 44, ../sass/template.scss */
+.pd-15 {
+  padding: 15px;
+}
+
+/* line 45, ../sass/template.scss */
+.pt-15 {
+  padding-top: 15px;
+}
+
+/* line 46, ../sass/template.scss */
+.pr-15 {
+  padding-right: 15px;
+}
+
+/* line 47, ../sass/template.scss */
+.pb-15 {
+  padding-bottom: 15px;
+}
+
+/* line 48, ../sass/template.scss */
+.pl-15 {
+  padding-left: 15px;
+}
+
+/* line 38, ../sass/template.scss */
+.mg-20 {
+  margin: 20px;
+}
+
+/* line 39, ../sass/template.scss */
+.mt-20 {
+  margin-top: 20px;
+}
+
+/* line 40, ../sass/template.scss */
+.mr-20 {
+  margin-right: 20px;
+}
+
+/* line 41, ../sass/template.scss */
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+/* line 42, ../sass/template.scss */
+.ml-20 {
+  margin-left: 20px;
+}
+
+/* line 44, ../sass/template.scss */
+.pd-20 {
+  padding: 20px;
+}
+
+/* line 45, ../sass/template.scss */
+.pt-20 {
+  padding-top: 20px;
+}
+
+/* line 46, ../sass/template.scss */
+.pr-20 {
+  padding-right: 20px;
+}
+
+/* line 47, ../sass/template.scss */
+.pb-20 {
+  padding-bottom: 20px;
+}
+
+/* line 48, ../sass/template.scss */
+.pl-20 {
+  padding-left: 20px;
+}
+
+/* line 38, ../sass/template.scss */
+.mg-25 {
+  margin: 25px;
+}
+
+/* line 39, ../sass/template.scss */
+.mt-25 {
+  margin-top: 25px;
+}
+
+/* line 40, ../sass/template.scss */
+.mr-25 {
+  margin-right: 25px;
+}
+
+/* line 41, ../sass/template.scss */
+.mb-25 {
+  margin-bottom: 25px;
+}
+
+/* line 42, ../sass/template.scss */
+.ml-25 {
+  margin-left: 25px;
+}
+
+/* line 44, ../sass/template.scss */
+.pd-25 {
+  padding: 25px;
+}
+
+/* line 45, ../sass/template.scss */
+.pt-25 {
+  padding-top: 25px;
+}
+
+/* line 46, ../sass/template.scss */
+.pr-25 {
+  padding-right: 25px;
+}
+
+/* line 47, ../sass/template.scss */
+.pb-25 {
+  padding-bottom: 25px;
+}
+
+/* line 48, ../sass/template.scss */
+.pl-25 {
+  padding-left: 25px;
+}
+
+/* line 38, ../sass/template.scss */
+.mg-30 {
+  margin: 30px;
+}
+
+/* line 39, ../sass/template.scss */
+.mt-30 {
+  margin-top: 30px;
+}
+
+/* line 40, ../sass/template.scss */
+.mr-30 {
+  margin-right: 30px;
+}
+
+/* line 41, ../sass/template.scss */
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+/* line 42, ../sass/template.scss */
+.ml-30 {
+  margin-left: 30px;
+}
+
+/* line 44, ../sass/template.scss */
+.pd-30 {
+  padding: 30px;
+}
+
+/* line 45, ../sass/template.scss */
+.pt-30 {
+  padding-top: 30px;
+}
+
+/* line 46, ../sass/template.scss */
+.pr-30 {
+  padding-right: 30px;
+}
+
+/* line 47, ../sass/template.scss */
+.pb-30 {
+  padding-bottom: 30px;
+}
+
+/* line 48, ../sass/template.scss */
+.pl-30 {
+  padding-left: 30px;
+}
+
+/* line 38, ../sass/template.scss */
+.mg-35 {
+  margin: 35px;
+}
+
+/* line 39, ../sass/template.scss */
+.mt-35 {
+  margin-top: 35px;
+}
+
+/* line 40, ../sass/template.scss */
+.mr-35 {
+  margin-right: 35px;
+}
+
+/* line 41, ../sass/template.scss */
+.mb-35 {
+  margin-bottom: 35px;
+}
+
+/* line 42, ../sass/template.scss */
+.ml-35 {
+  margin-left: 35px;
+}
+
+/* line 44, ../sass/template.scss */
+.pd-35 {
+  padding: 35px;
+}
+
+/* line 45, ../sass/template.scss */
+.pt-35 {
+  padding-top: 35px;
+}
+
+/* line 46, ../sass/template.scss */
+.pr-35 {
+  padding-right: 35px;
+}
+
+/* line 47, ../sass/template.scss */
+.pb-35 {
+  padding-bottom: 35px;
+}
+
+/* line 48, ../sass/template.scss */
+.pl-35 {
+  padding-left: 35px;
+}
+
+/* line 38, ../sass/template.scss */
+.mg-40 {
+  margin: 40px;
+}
+
+/* line 39, ../sass/template.scss */
+.mt-40 {
+  margin-top: 40px;
+}
+
+/* line 40, ../sass/template.scss */
+.mr-40 {
+  margin-right: 40px;
+}
+
+/* line 41, ../sass/template.scss */
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+/* line 42, ../sass/template.scss */
+.ml-40 {
+  margin-left: 40px;
+}
+
+/* line 44, ../sass/template.scss */
+.pd-40 {
+  padding: 40px;
+}
+
+/* line 45, ../sass/template.scss */
+.pt-40 {
+  padding-top: 40px;
+}
+
+/* line 46, ../sass/template.scss */
+.pr-40 {
+  padding-right: 40px;
+}
+
+/* line 47, ../sass/template.scss */
+.pb-40 {
+  padding-bottom: 40px;
+}
+
+/* line 48, ../sass/template.scss */
+.pl-40 {
+  padding-left: 40px;
+}
+
+/* line 38, ../sass/template.scss */
+.mg-45 {
+  margin: 45px;
+}
+
+/* line 39, ../sass/template.scss */
+.mt-45 {
+  margin-top: 45px;
+}
+
+/* line 40, ../sass/template.scss */
+.mr-45 {
+  margin-right: 45px;
+}
+
+/* line 41, ../sass/template.scss */
+.mb-45 {
+  margin-bottom: 45px;
+}
+
+/* line 42, ../sass/template.scss */
+.ml-45 {
+  margin-left: 45px;
+}
+
+/* line 44, ../sass/template.scss */
+.pd-45 {
+  padding: 45px;
+}
+
+/* line 45, ../sass/template.scss */
+.pt-45 {
+  padding-top: 45px;
+}
+
+/* line 46, ../sass/template.scss */
+.pr-45 {
+  padding-right: 45px;
+}
+
+/* line 47, ../sass/template.scss */
+.pb-45 {
+  padding-bottom: 45px;
+}
+
+/* line 48, ../sass/template.scss */
+.pl-45 {
+  padding-left: 45px;
+}
+
+/* line 38, ../sass/template.scss */
+.mg-50 {
+  margin: 50px;
+}
+
+/* line 39, ../sass/template.scss */
+.mt-50 {
+  margin-top: 50px;
+}
+
+/* line 40, ../sass/template.scss */
+.mr-50 {
+  margin-right: 50px;
+}
+
+/* line 41, ../sass/template.scss */
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+/* line 42, ../sass/template.scss */
+.ml-50 {
+  margin-left: 50px;
+}
+
+/* line 44, ../sass/template.scss */
+.pd-50 {
+  padding: 50px;
+}
+
+/* line 45, ../sass/template.scss */
+.pt-50 {
+  padding-top: 50px;
+}
+
+/* line 46, ../sass/template.scss */
+.pr-50 {
+  padding-right: 50px;
+}
+
+/* line 47, ../sass/template.scss */
+.pb-50 {
+  padding-bottom: 50px;
+}
+
+/* line 48, ../sass/template.scss */
+.pl-50 {
+  padding-left: 50px;
+}
+
+/* ---------------------------------------------------------------------------------------------*/
+/* line 54, ../sass/template.scss */
+.bt {
+  border-top: 1px solid #dddddd;
+}
+
+/* line 55, ../sass/template.scss */
+.br {
+  border-right: 1px solid #dddddd;
+}
+
+/* line 56, ../sass/template.scss */
+.bb {
+  border-bottom: 1px solid #dddddd;
+}
+
+/* line 57, ../sass/template.scss */
+.bl {
+  border-left: 1px solid #dddddd;
+}
+
+/* line 58, ../sass/template.scss */
+.bt-0 {
+  border-top: none;
+}
+
+/* line 59, ../sass/template.scss */
+.br-0 {
+  border-right: none;
+}
+
+/* line 60, ../sass/template.scss */
+.bb-0 {
+  border-bottom: none;
+}
+
+/* line 61, ../sass/template.scss */
+.bl-0 {
+  border-left: none;
+}
+
+/* =============================================================================================
 	ELEMENTOS
    ---------------------------------------------------------------------------------------------*/
-/* line 24, ../sass/template.scss */
+/* line 69, ../sass/template.scss */
 i.fa, i[class*="fa-icon"] {
   *display: none;
 }
 
-/* line 26, ../sass/template.scss */
+/* line 71, ../sass/template.scss */
 .page-header h1 {
   margin: 0;
 }
 
-/* line 28, ../sass/template.scss */
+/* line 73, ../sass/template.scss */
 .mark {
   position: absolute;
   top: 0;
@@ -2877,7 +2900,7 @@ i.fa, i[class*="fa-icon"] {
   height: 100%;
   background: #d5d5d5;
 }
-/* line 36, ../sass/template.scss */
+/* line 81, ../sass/template.scss */
 .mark.mark-circle {
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
@@ -2885,7 +2908,7 @@ i.fa, i[class*="fa-icon"] {
 }
 
 @-moz-document url-prefix() {
-  /* line 39, ../sass/template.scss */
+  /* line 84, ../sass/template.scss */
   .mark {
     position: relative;
     width: 5px;
@@ -2895,18 +2918,18 @@ i.fa, i[class*="fa-icon"] {
     border-radius: 100%;
   }
 
-  /* line 45, ../sass/template.scss */
+  /* line 90, ../sass/template.scss */
   i.fa, i[class*="fa-icon"] {
     display: none;
   }
 }
 
-/* line 48, ../sass/template.scss */
+/* line 93, ../sass/template.scss */
 .tooltip.top .tooltip-arrow {
   border-width: 6px 6px 0;
 }
 
-/* line 50, ../sass/template.scss */
+/* line 95, ../sass/template.scss */
 header .sombra {
   position: absolute;
   bottom: 1px;
@@ -2921,7 +2944,7 @@ header .sombra {
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
 }
 
-/* line 63, ../sass/template.scss */
+/* line 108, ../sass/template.scss */
 iframe {
   width: 100%;
   height: inherit;
@@ -2930,116 +2953,116 @@ iframe {
   z-index: 0;
 }
 
-/* line 72, ../sass/template.scss */
+/* line 117, ../sass/template.scss */
 .linha {
   display: block;
   margin-bottom: 10px;
 }
 
-/* line 75, ../sass/template.scss */
+/* line 120, ../sass/template.scss */
 [class*="btns-"] {
   padding: 5px 0;
   overflow: hidden;
 }
-/* line 79, ../sass/template.scss */
+/* line 124, ../sass/template.scss */
 [class*="btns-"] .btn {
   margin-right: 5px;
 }
-/* line 81, ../sass/template.scss */
+/* line 126, ../sass/template.scss */
 [class*="btns-"][class*="-right"] .btn {
   float: right;
 }
-/* line 81, ../sass/template.scss */
+/* line 126, ../sass/template.scss */
 [class*="btns-"][class*="-right"] .btn:first-child {
   margin-right: 0;
 }
-/* line 82, ../sass/template.scss */
+/* line 127, ../sass/template.scss */
 [class*="btns-"][class*="-left"] .btn {
   float: left;
 }
-/* line 82, ../sass/template.scss */
+/* line 127, ../sass/template.scss */
 [class*="btns-"][class*="-left"] .btn:last-child {
   margin-right: 0;
 }
-/* line 84, ../sass/template.scss */
+/* line 129, ../sass/template.scss */
 [class*="btns-"][class*="-top"] {
   margin-bottom: 10px;
 }
-/* line 86, ../sass/template.scss */
+/* line 131, ../sass/template.scss */
 [class*="btns-"][class*="-top"].border {
   padding-bottom: 15px;
   border-bottom: 1px solid #dddddd;
 }
-/* line 88, ../sass/template.scss */
+/* line 133, ../sass/template.scss */
 [class*="btns-"][class*="-bottom"] {
   margin-top: 10px;
 }
-/* line 90, ../sass/template.scss */
+/* line 135, ../sass/template.scss */
 [class*="btns-"][class*="-bottom"].border {
   padding-top: 15px;
   border-top: 1px solid #dddddd;
 }
-/* line 94, ../sass/template.scss */
+/* line 139, ../sass/template.scss */
 [class*="btns-"] + * .table tr:first-child .td, [class*="btns-"] + * .table tr:first-child .th, [class*="btns-"] + * .table tr:first-child th, [class*="btns-"] + * .table tr:first-child td {
   border-top: none;
 }
 
 /* Colunas */
-/* line 100, ../sass/template.scss */
+/* line 145, ../sass/template.scss */
 .table-col {
   display: table;
   width: 100%;
 }
-/* line 104, ../sass/template.scss */
+/* line 149, ../sass/template.scss */
 .table-col .col {
   vertical-align: top;
   display: table-cell;
   float: none;
 }
 
-/* line 114, ../sass/template.scss */
+/* line 159, ../sass/template.scss */
 .box, .box-page {
   position: relative;
   display: inline-block;
   background: #FFF;
   border: 1px solid #dddddd;
 }
-/* line 123, ../sass/template.scss */
+/* line 168, ../sass/template.scss */
 .box .inner-box, .box-page .inner-box {
   padding: 10px;
 }
-/* line 125, ../sass/template.scss */
+/* line 170, ../sass/template.scss */
 .box.box-large, .box-page.box-large {
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
 }
-/* line 128, ../sass/template.scss */
+/* line 173, ../sass/template.scss */
 .box.box-large .title-box, .box.box-large .inner-box, .box-page.box-large .title-box, .box-page.box-large .inner-box {
   padding: 5px 40px;
 }
-/* line 129, ../sass/template.scss */
+/* line 174, ../sass/template.scss */
 .box.box-large .inner-box, .box-page.box-large .inner-box {
   padding-bottom: 20px;
 }
 
-/* line 133, ../sass/template.scss */
+/* line 178, ../sass/template.scss */
 .box {
   margin-bottom: 10px;
   /* arrow */
 }
-/* line 136, ../sass/template.scss */
+/* line 181, ../sass/template.scss */
 .box .close {
   position: absolute;
   right: 10px;
   top: 50%;
   margin-top: -10px;
 }
-/* line 142, ../sass/template.scss */
+/* line 187, ../sass/template.scss */
 .box .close + .title-box {
   padding-right: 25px;
 }
-/* line 145, ../sass/template.scss */
+/* line 190, ../sass/template.scss */
 .box .title-box {
   position: relative;
   padding: 16px 10px;
@@ -3049,62 +3072,62 @@ iframe {
   border-bottom: 1px solid #ebebeb;
 }
 
-/* line 162, ../sass/template.scss */
+/* line 207, ../sass/template.scss */
 .page-title {
   text-align: center;
   margin-bottom: 60px;
 }
-/* line 170, ../sass/template.scss */
+/* line 215, ../sass/template.scss */
 .page-title h2 {
   font-size: 1.5em;
   margin-top: -5px;
 }
 
-/* line 177, ../sass/template.scss */
+/* line 222, ../sass/template.scss */
 .title {
   margin-bottom: 20px;
   overflow: hidden;
   display: block;
 }
 
-/* line 185, ../sass/template.scss */
+/* line 230, ../sass/template.scss */
 .table-header-fixed.border {
   border: 1px solid #dddddd;
 }
-/* line 193, ../sass/template.scss */
+/* line 238, ../sass/template.scss */
 .table-header-fixed > .table-header .table:first-child {
   border-bottom: 1px solid #dddddd;
 }
-/* line 194, ../sass/template.scss */
+/* line 239, ../sass/template.scss */
 .table-header-fixed > .table-header .table th {
   border-top: none;
 }
-/* line 197, ../sass/template.scss */
+/* line 242, ../sass/template.scss */
 .table-header-fixed > .table-body {
   position: relative;
   max-height: 185px;
 }
-/* line 202, ../sass/template.scss */
+/* line 247, ../sass/template.scss */
 .table-header-fixed > .table-body.condensed {
   max-height: 145px;
 }
-/* line 203, ../sass/template.scss */
+/* line 248, ../sass/template.scss */
 .table-header-fixed > .table-body tr th {
   display: none;
 }
-/* line 204, ../sass/template.scss */
+/* line 249, ../sass/template.scss */
 .table-header-fixed > .table-body tr:first-child .td {
   border-top: none;
 }
 
-/* line 212, ../sass/template.scss */
+/* line 257, ../sass/template.scss */
 .loading i {
   background-position: -240px -24px;
   animation: rloading 0.8s linear infinite;
 }
 
 @keyframes rloading {
-  /* line 218, ../sass/template.scss */
+  /* line 263, ../sass/template.scss */
   from {
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
@@ -3113,7 +3136,7 @@ iframe {
     transform: rotate(0deg);
   }
 
-  /* line 219, ../sass/template.scss */
+  /* line 264, ../sass/template.scss */
   to {
     -webkit-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
@@ -3126,27 +3149,27 @@ iframe {
 /* =============================================================================================
 	MAIN 
    ---------------------------------------------------------------------------------------------*/
-/* line 227, ../sass/template.scss */
+/* line 272, ../sass/template.scss */
 body {
   padding: 0;
 }
-/* line 230, ../sass/template.scss */
+/* line 275, ../sass/template.scss */
 body.frame {
   padding: 15px 0;
   height: auto;
   min-height: 100%;
 }
-/* line 236, ../sass/template.scss */
+/* line 281, ../sass/template.scss */
 body.frame .main {
   overflow: visible;
 }
-/* line 240, ../sass/template.scss */
+/* line 285, ../sass/template.scss */
 body.abrebox-frame form {
   width: 100%;
   max-width: 600px;
 }
 
-/* line 244, ../sass/template.scss */
+/* line 289, ../sass/template.scss */
 .main {
   position: relative;
   left: 0;
@@ -3159,12 +3182,12 @@ body.abrebox-frame form {
   zoom: 1;
 }
 
-/* line 256, ../sass/template.scss */
+/* line 301, ../sass/template.scss */
 .main, header, section, footer {
   position: relative;
 }
 
-/* line 257, ../sass/template.scss */
+/* line 302, ../sass/template.scss */
 .container-fluid {
   padding: 0 20px;
 }
@@ -3172,14 +3195,14 @@ body.abrebox-frame form {
 /* =============================================================================================
 	CABECALHO 
    ---------------------------------------------------------------------------------------------*/
-/* line 266, ../sass/template.scss */
+/* line 311, ../sass/template.scss */
 .cabecalho .container-fluid {
   position: relative;
   background: rgba(255,255,255,0.95);
   border-bottom: 1px solid #a6bfdb;
   z-index: 2;
 }
-/* line 273, ../sass/template.scss */
+/* line 318, ../sass/template.scss */
 .cabecalho .sombra {
   position: absolute;
   bottom: 1px;
@@ -3197,7 +3220,7 @@ body.abrebox-frame form {
 /* =============================================================================================
 	CORPO PRINCIPAL 
    ---------------------------------------------------------------------------------------------*/
-/* line 293, ../sass/template.scss */
+/* line 338, ../sass/template.scss */
 .corpo {
   display: inline-block;
   width: 100%;
