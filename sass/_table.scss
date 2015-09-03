@@ -1,0 +1,164 @@
+@import "funcoes";
+
+
+
+
+/* =============================================================================================
+	TABELA 
+   ---------------------------------------------------------------------------------------------*/
+
+ul.table {
+	display: table;
+
+	.thead { display: table-header-group; }
+	.tbody { display: table-row-group; }
+	.tfooter { display: table-footer-group; }
+
+	.tr { display: table-row; }
+	.td, .th { display: table-cell; }
+
+	&.table-striped .tbody .tr:nth-child(odd) {
+		.th, .td { background-color: #f9f9f9; }
+	}
+	&.table-hover .tbody .tr:hover {
+		.th, .td { background-color: #f5f5f5; }
+	}
+	&.table-radius,
+	&.table-bordered {
+		.tr:last-child .td:first-child { @include border-radius(0 0 0 4px); }
+
+		.tr:first-child .td:first-child,
+		.tr:first-child .th:first-child { @include border-radius(4px 0 0 0); }
+
+		.thead ~ .tbody .tr:first-child .td:first-child { @extend %no-border-radius; }
+	}
+	&.table-bordered {
+		.tr .td:first-child,
+		.tr .th:first-child { border-left: border(); }
+	}
+}
+
+.table {
+
+	margin: 0;
+	border-collapse: inherit !important;
+
+	&, table { width: 100%; }
+    .table { border-collapse: collapse !important; }
+
+	&.table-no-bordered {
+		td, th, .td, .th { border: 0 !important; }
+	}
+
+	&.table-striped.table-hover tbody tr:hover:nth-child(odd) td,
+	&.table-striped.table-hover .tbody .tr:hover:nth-child(odd) .td {
+		background-color: #f5f5f5;
+	}
+
+	.tbody , tbody { 
+		.tr:last-child, tr:last-child { td, th, .td, .th { border-bottom: border(); } }
+	}
+
+	&:not(.table-striped) tr:hover th,
+	&:not(.table-striped) .tr:hover .th { background: transparent !important; }
+
+	thead tr:first-child, .thead .tr:first-child {
+		td, th, .td, .th { border-top: 0; }
+	}
+
+	thead + thead tr:first-child, .thead + .thead .tr:first-child {
+		td, th, .td, .th { border-top: border(); }
+	}
+
+	th, .th { 
+		vertical-align: bottom; 
+		font-size: 1.1em; 
+		@extend %fb;
+	}
+
+	td, .td { vertical-align: middle; }
+	td, th, .td, .th { 
+		position: relative; 
+		border-top: border();
+		padding: 8px;
+		line-height: $line-height;
+		text-align: left;
+
+		&.visible-desktop { display: table-cell !important; }
+		@media (max-width: $res-monitor) {
+			&.visible-desktop { display: none !important; }
+		}
+	}
+    
+
+	a {
+		// &:hover, &:focus { text-decoration: underline; }
+		&.a-block {
+		  	position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			min-height: 100%;
+			padding: 8px;
+			text-align: center;
+			display: inline-block;
+			@include box-sizing();
+		}
+
+		&.a-badge, &.a-block {
+			&.tool-title b { display: none; }
+			&:hover, &:focus {
+				color: #FFF;
+				background: $cor-primaria;
+				text-decoration: none;
+				&:not([disabled]) [class^="icon-"] { background-image: icons(); }
+			}
+		}
+
+		&.a-block[disabled] {
+			cursor: default;
+			@include opacity(30);
+
+			&:hover { background: transparent; }
+			& + .tooltip { display: none !important; }
+		}
+	}
+
+	/* table-condensed */
+	/* -----------------------------------------------------------------------------------------*/
+	&.table-condensed {
+		th, .th { padding: 8px 5px; }
+		td, .td, a.a-block { padding: 4px 5px; }
+	}
+
+
+
+	/* width */ 
+	/* -----------------------------------------------------------------------------------------*/
+	[class*="-cod"],
+	[class*="-tempo"],
+	[class*="-data"] { text-align: center; }
+
+	[class*="-cod"] { width: 50px; }
+
+	.td-visualizar,
+	.td-editar,
+	.td-excluir,
+	.td-link,
+	.td-sel { width: 20px; }
+}
+
+
+/* firefox */ 
+@-moz-document url-prefix() { 
+	.table a.a-block { 
+		position: relative !important; 
+		min-width: 30px;
+		margin: -8px;
+	}
+}
+
+/* saf3+, chrome1+ */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	// 
+}

@@ -1,0 +1,93 @@
+@import "funcoes";
+
+
+
+
+/* =============================================================================================
+	Basic Filter
+   ---------------------------------------------------------------------------------------------*/
+//  vars
+
+// =============================================================================================
+
+
+
+
+
+
+
+
+  // Botoes 
+  // ---------------------------------------------------------------------------------------------*/
+
+#bodyBasicFilter {
+	margin: 0;
+	padding: 0;
+	
+	tr.trHeader + tr {
+		&:hover td { background: transparent; }
+		input { margin-bottom: 0; }
+	}
+}
+
+#tabMain { width: 100%; }
+
+#BasicFilter {
+	& > .divToolbar:last-child .tButtons ul { border-top: border(); border-bottom: border(); }
+	& > div { margin: 0 !important; padding: 0 !important; }	
+} 
+
+
+.tButtons {
+	width: 100%;
+	z-index: 5;
+	padding: 0;
+	background: #f5f5f5 !important;
+	display: block;
+	// @extend .clearfix;
+	ul { overflow: auto; margin: 0; }
+
+	li {
+		float: left;
+		padding: 5px;
+		height: 20px;
+		line-height: normal;
+		border-left: border();
+
+		&:nth-child(odd) { display: none; } /* esconde divisoes */
+		&:last-child { line-height: 20px; font-weight: bold; }
+		&:last-child:before { content: none; }
+		&:hover:not(:last-child) {
+			cursor: pointer;
+			color: #FFF !important;
+			background: $cor-primaria !important;
+		}
+		
+		/* icon-li */ 
+		&:before {			
+			content: ' ';
+			display: inline-block;
+			width: 14px;
+			height: 14px;
+			margin-top: 1px;
+			*margin-right: .3em;
+			line-height: 14px;
+			vertical-align: text-top;
+			background-image: icons('');
+			background-repeat: no-repeat;
+		}
+		&:hover:before { background-image: icons(); }
+
+		&:nth-child(2):before  { background-position: -24px -24px; }   // icon-file
+		&:nth-child(4):before  { background-position: -96px -24px; }   // icon-download-alt
+		&:nth-child(6):before  { background-position: -408px -144px; } // icon-filter
+		&:nth-child(8):before  { background-position: -96px -48px; }   // icon-print
+		&:nth-child(10):before { background-position: -240px -72px; }  // icon-backward
+		&:nth-child(12):before { background-position: -432px -72px; }  // icon-chevron-left
+		&:nth-child(14):before { background-position: -456px -72px; }  // icon-chevron-right
+		&:nth-child(16):before { background-position: -336px -72px; }  // icon-forward
+		&:nth-child(18):before { background-position: -240px -96px; }  // icon-arrow-left
+
+		img { display: none; }
+	}
+}

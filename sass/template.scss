@@ -1,0 +1,310 @@
+/* =============================================================================================
+	Imports
+   ---------------------------------------------------------------------------------------------*/
+@import "funcoes"; 
+@import "classes_genericas";
+@import "fonte";
+@import "formulario";
+@import "append";
+@import "table";
+@import "modal";
+@import "menu"; 
+@import "botoes";
+@import "dropdown";
+@import "accordion";
+@import "basicFilter";
+
+
+
+
+/* =============================================================================================
+	ELEMENTOS
+   ---------------------------------------------------------------------------------------------*/
+
+i.fa, i[class*="fa-icon"] { *display: none; }
+
+.page-header h1 { margin: 0; }
+
+.mark {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #d5d5d5; 
+
+	&.mark-circle { @include border-radius(100%); }
+}
+@-moz-document url-prefix() {
+	.mark {
+		position: relative;
+		width: 5px;
+		height: 5px;
+		@include border-radius(100%);
+	}
+	i.fa, i[class*="fa-icon"] { display: none; }
+}
+
+.tooltip.top .tooltip-arrow { border-width: 6px 6px 0; }
+
+header .sombra {
+		position: absolute;
+		bottom: 1px;
+		background: #FFF;
+		height: 2px;
+		width: 100%;
+		@extend %transition;
+		@include border-radius(200px, 10px);
+		@include box-shadow('1px 1px 10px rgba(0, 0, 0, 0.5)');
+
+		.scroll & { @extend %visible-block; }
+}
+
+iframe {
+	width: 100%;
+	height: inherit;
+	margin: 0;
+	border: 0;
+	z-index: 0;
+	@extend %box-sizing;
+}
+
+.linha { display: block; margin-bottom: 10px; }
+
+// container btns
+[class*="btns-"] {
+	padding: 5px 0;
+	overflow: hidden;
+
+	.btn {  margin-right: 5px; }
+	
+	&[class*="-right"] .btn { float: right; &:first-child { margin-right: 0; } }
+	&[class*="-left"] .btn { float: left; &:last-child { margin-right: 0; } }
+
+	&[class*="-top"] { 
+		margin-bottom: 10px; 
+		&.border { padding-bottom: 15px; border-bottom: border(); }
+	}
+	&[class*="-bottom"] { 
+		margin-top: 10px; 
+		&.border { padding-top: 15px; border-top: border(); }
+	}
+
+	& + * .table tr:first-child {
+		.td, .th, th, td { border-top: none; }
+	}
+}
+
+/* Colunas */ 
+
+.table-col {
+	display: table;
+	width: 100%;
+
+	.col {
+		vertical-align: top;
+		display: table-cell;
+		float: none;
+		// width: 1%;
+	}
+}
+
+
+
+.box, .box-page {
+	position: relative;
+	display: inline-block;
+	background: #FFF;
+	border: border();
+
+	@extend %box-shadow;
+	@extend %border-radius;
+
+	.inner-box { padding: 10px; }
+
+	&.box-large {
+		@include border-radius(10px);
+
+		.title-box,	.inner-box { padding: 5px 40px; }
+		.inner-box { padding-bottom: 20px; }
+	}
+}
+
+.box {
+	margin-bottom: 10px;
+
+	.close {
+		position: absolute;
+		right: 10px;
+		top: 50%;
+		margin-top: -10px;
+
+		& + .title-box { padding-right: 25px; }
+	}
+
+	.title-box {
+		position: relative;
+		padding: 16px 10px;
+		margin-bottom: 5px;
+		font-size: em($font-size + 4px);
+		background: #f7f7f7;
+		border-bottom: border(#ebebeb);
+		@extend %border-radius-top;
+	}
+
+	/* arrow */ 
+	&.top {
+		
+	}
+}
+
+
+.page-title {
+	text-align: center;
+	margin-bottom: 60px;
+
+	h1 { 
+		@extend %fb; 
+		@extend h1.lg; 
+	}
+	h2 { 
+		@extend %fi; 
+		font-size: em($font-size + 6px);
+		margin-top: -5px;
+	}
+}
+
+.title {
+	margin-bottom: 20px;
+	overflow: hidden;
+	display: block;
+	@extend .t-left;
+}
+
+.table-header-fixed {
+	&.border { border: border(); }
+	&.border-radius { 
+		@extend %border-radius;
+		& > .table-header { @extend %border-radius-top; }
+		& > .table-body { @extend %border-radius-bottom; }
+	}
+
+	& > .table-header {
+		.table:first-child { border-bottom: border(); }
+		.table th { border-top: none; }
+	}
+
+	& > .table-body {
+		position: relative;
+		max-height: 185px;
+		@extend .overflowY;
+
+		&.condensed { max-height: 145px; }
+		tr th { display: none; }
+		tr:first-child .td { border-top: none; }
+	}
+}
+
+
+
+
+// icon refresh
+.loading i {
+	background-position: -240px -24px;
+	animation: rloading 0.8s linear infinite;
+}
+
+@keyframes rloading {
+	from { @include rotate(0deg); }
+	to { @include rotate(360deg); }
+}
+
+
+
+/* =============================================================================================
+	MAIN 
+   ---------------------------------------------------------------------------------------------*/
+body {
+	padding: 0;
+
+	&.frame { 
+		padding: 15px 0; 
+		height: auto;
+		min-height: 100%;
+		@extend %box-sizing;
+
+		.main { overflow: visible; }
+	}
+
+	&.abrebox-frame {
+		form { width: 100%; max-width: 600px; }
+	}
+}
+
+.main {
+	position: relative;
+	left: 0;
+	top: 0;
+	max-width: $max-width;
+	min-width: $min-width;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	zoom: 1;
+}
+
+.main, header, section, footer { position: relative; }
+.container-fluid { padding: 0 20px; }
+
+
+
+/* =============================================================================================
+	CABECALHO 
+   ---------------------------------------------------------------------------------------------*/
+
+.cabecalho {
+	.container-fluid { 
+		position: relative;
+		background: #{rgba(#FFF, 95)};
+		border-bottom: border(#a6bfdb);
+		z-index: 2;
+	}
+
+	.sombra {
+		position: absolute;
+		bottom: 1px;
+		background: #FFF;
+		height: 2px;
+		width: 100%;
+		@include border-radius(200px, 10px);
+		@include box-shadow('1px 1px 10px rgba(0, 0, 0, 0.5)');
+		@extend %transition;
+		@extend %visible-hide;
+	}
+
+	.scroll & .sombra { @extend %visible-block; }
+}
+
+
+/* =============================================================================================
+	CORPO PRINCIPAL 
+   ---------------------------------------------------------------------------------------------*/
+
+.corpo {	
+	display: inline-block;
+	width: 100%;
+	padding-top: em(50px); 
+}
+
+
+/* =============================================================================================
+	RODAPE 
+   ---------------------------------------------------------------------------------------------*/
+
+
+
+
+
+/* =============================================================================================
+	Elementos
+   ---------------------------------------------------------------------------------------------*/

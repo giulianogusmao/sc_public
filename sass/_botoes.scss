@@ -1,0 +1,42 @@
+@import "funcoes";
+
+/* =============================================================================================
+	BOTOES
+   ---------------------------------------------------------------------------------------------*/
+
+	$arrBtn: (
+        ('default', $cor-btn-default)  
+        ('primary', $btn-solid-primary)  
+        ('success', $btn-solid-success)  
+        ('info', $btn-solid-info)  
+        ('warning', $btn-solid-warning)  
+        ('danger', $btn-solid-danger)
+        ('inverse', $btn-solid-inverse)
+    );
+
+/* ============================================================================================= */
+
+
+.btn-solid { @extend %no-box-shadow; }
+
+@each $btn in $arrBtn {
+	$name: nth($btn, 1); 
+	$var:  nth($btn, 2);
+
+	%btn-solid-border-color-#{$name} { border-color: $var; }
+	%btn-solid-active-border-color-#{$name} { border-color: darken($var, 20%); }
+	%btn-solid-linear-gradient-#{$name} { @include linear-gradient($var); }
+	%btn-solid-hover-linear-gradient-#{$name} { @include linear-gradient(darken($var, 10%)); }
+
+	.btn-solid.btn-#{$name} { 
+		@extend %btn-solid-border-color-#{$name};
+		@extend %btn-solid-linear-gradient-#{$name};
+
+		&:hover { @extend %btn-solid-hover-linear-gradient-#{$name}; }
+
+		&:active { 
+			@extend %btn-solid-active-border-color-#{$name};
+			@extend %box-shadow-inner; 
+		}
+	}
+}
